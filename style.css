@@ -8,18 +8,29 @@
 body{
         background-color: #000000;
         color: #F6F6F6; 
-        height: 100vh;
         box-sizing: border-box;
 }
 
-.titulo-destaque{
-        color: #22D4FD; 
+.header{
+        padding: 2% 0% 0% 10%;
+}
+
+.header__menu{
+        display: flex;
+        gap: 80px;
+}
+
+.header__menu__link{
+        font-size: 24  px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: #22D4FD;
 }
 
 .presentacion{
         display: flex;
         align-items: center;
-        margin: 10% 10%;
+        padding: 8% 10%;
         justify-content: space-between;
 }
 
@@ -33,6 +44,10 @@ body{
 .presentacion__contenido__titulo{
         font-size: 36px;
         font-family: "Krona One", sans-serif; 
+}
+
+.titulo-destaque{
+        color: #22D4FD; 
 }
 
 .presentacion__contenido__texto{
@@ -72,7 +87,22 @@ body{
 } 
 
 .presentacion__enlaces__link:hover{
+        cursor: pointer;
 	background-color: #272727;
+}
+
+.footer{
+        background-color: #22D4FD;
+        padding: 24px;
+        color: #000000;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 0px; 
 }
 
 /* Este es un comentario en CSS. */
